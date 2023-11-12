@@ -69,7 +69,7 @@ body {
 }
 .address-list-item:hover,
 .address-list-item:focus {
-    color: var(--SLATE, #404BBF);
+    color: var(--SLATE, #404bbf);
     font-family: Roboto,
         serif;
         font-size: 16px;
