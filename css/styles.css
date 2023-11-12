@@ -7,12 +7,17 @@
 button {
     cursor: pointer;
 }
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
 .logo {
-    color: var(--NAVY-BLUE, #2E2F42);
-        font-family: Raleway, serif; 
+    color: var(--NAVY-BLUE, #2e2f42);
+        font-family: Raleway, sans-serif; 
         font-size: 18px;
         font-weight: 700;
-        line-height: 6.48;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
@@ -37,6 +42,12 @@ button {
     display: inline-flex;
         align-items: flex-start;
         gap: 40px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.menu-item {
+    font-weight: 500
 }
 .menu-item:hover,
 .menu-item:focus {
@@ -48,6 +59,7 @@ button {
         /* Body */
         font-family: Roboto, serif;
         font-size: 16px;
+        font-style: normal;
         font-weight: 400;
         line-height: 150%;
         letter-spacing: 0.02em;
@@ -64,6 +76,7 @@ button {
 }
 .section-one {
     background-color: #2E2F42;
+    letter-spacing: 0.02em;
 
 }
 .header-one {
@@ -85,8 +98,12 @@ button {
 border-radius: 4px;
     background: var(--IRIS, #4D5AE5);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
-.button:hover {
+.button:hover,
+.button:focus {
     display: inline-flex;
         padding: 16px 32px;
         align-items: flex-start;
@@ -96,11 +113,11 @@ border-radius: 4px;
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .button-text {
-color: var(--WHITE, #FFF);
+color: var(--WHITE, #FFFFFF);
 
     /* Button Text */
     font-family: Roboto,
-        serif;
+        sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -133,6 +150,7 @@ color: var(--WHITE, #FFF);
 }
 .section-team {
     background-color: #F4F4FD;
+    line-height: 1.11;
 }
 .header-team {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -149,6 +167,7 @@ color: var(--WHITE, #FFF);
 }
 .team-list {
     display: flex;
+    background-color: #FFFFFF;
 }
 .team {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -158,7 +177,7 @@ color: var(--WHITE, #FFF);
         font-family: Roboto,
             serif;
         font-size: 20px;
-        font-weight: 5;
+        font-weight: 500;
         line-height: 1.2em;
         letter-spacing: 0.02em;
 }
@@ -212,17 +231,15 @@ color: var(--SLATE, #434455);
 .footer-one {
     background-color: #2E2F42;
 }
-.logo-footer {
-    color: #FFF;
-}
+
 .footer-text {
-color: var(--CLOUD, #F4F4FD);
+color: var(--CLOUD, #4d5ae5);
 
     /* Body */
     font-family: Roboto,
-        serif;
+        sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 1.17;
     letter-spacing: 0.02em;
 }
