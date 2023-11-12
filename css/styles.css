@@ -37,11 +37,9 @@ body {
         width: 1440px;
         height: 72px;
         justify-content: center;
-        align-items: center;
         flex-shrink: 0;
 }
 .menu {
-        align-items: flex-start;
         gap: 40px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -98,7 +96,6 @@ body {
 .button {
     color: #ffffff;
         padding: 16px 32px;
-        align-items: flex-start;
         gap: 10px;
 border-radius: 4px;
     background: var(--IRIS, #4D5AE5);
@@ -110,7 +107,6 @@ border-radius: 4px;
 .button:hover,
 .button:focus {
         padding: 16px 32px;
-        align-items: flex-start;
         gap: 10px;
         border-radius: 4px;
             background: var(--OCEAN, #404BBF);
