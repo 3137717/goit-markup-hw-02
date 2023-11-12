@@ -34,12 +34,16 @@ body {
 
 
 .page-header {
+    display: flex;
         width: 1440px;
         height: 72px;
         justify-content: center;
+        align-items: center;
         flex-shrink: 0;
 }
 .menu {
+    display: inline-flex;
+        align-items: flex-start;
         gap: 40px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -69,7 +73,7 @@ body {
 }
 .address-list-item:hover,
 .address-list-item:focus {
-    color: var(--SLATE, #404bbf);
+    color: var(--SLATE, #404BBF);
     font-family: Roboto,
         serif;
         font-size: 16px;
@@ -95,7 +99,9 @@ body {
 }
 .button {
     color: #ffffff;
+    display: inline-flex;
         padding: 16px 32px;
+        align-items: flex-start;
         gap: 10px;
 border-radius: 4px;
     background: var(--IRIS, #4D5AE5);
@@ -106,7 +112,9 @@ border-radius: 4px;
 }
 .button:hover,
 .button:focus {
+    display: inline-flex;
         padding: 16px 32px;
+        align-items: flex-start;
         gap: 10px;
         border-radius: 4px;
             background: var(--OCEAN, #404BBF);
@@ -123,7 +131,9 @@ border-radius: 4px;
         line-height: 1.2;
         letter-spacing: 0.02em;
 }
-
+.section-two-list {
+    display: flex;
+}
 .section-two-text {
     color: var(--SLATE, #434455);
     
@@ -153,6 +163,7 @@ border-radius: 4px;
         text-transform: capitalize;
 }
 .team-list {
+    display: flex;
     background-color: #FFFFFF;
 }
 .item-one {
