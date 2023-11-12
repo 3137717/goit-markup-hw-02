@@ -9,6 +9,7 @@ button {
     cursor: pointer;
 }
 body {
+    list-style-type: none;
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
