@@ -1,3 +1,4 @@
+
 .list {
     list-style-type: none;
 }
@@ -13,7 +14,7 @@ body {
     background-color: #FFFFFF;
 }
 .logo {
-    color: var(--NAVY-BLUE, #4d5ae5);
+    color: #4d5ae5;
         font-family: Raleway, sans-serif; 
         font-size: 18px;
         font-weight: 700;
@@ -97,6 +98,7 @@ body {
         color: #FFF
 }
 .button {
+    color: #ffffff;
     display: inline-flex;
         padding: 16px 32px;
         align-items: flex-start;
