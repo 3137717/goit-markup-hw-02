@@ -22,7 +22,7 @@ body {
         text-transform: uppercase;
 }
 .logo-half {
-    color: var(--IRIS, #4d5ae5);
+    color:  #2e2f42;
         font-family: Raleway, serif;
         font-size: 18px;
         font-weight: 700;
@@ -30,9 +30,8 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
-.logo-half-two {
-    color: #2e2f42;
-}
+
+
 .page-header {
     display: flex;
         width: 1440px;
