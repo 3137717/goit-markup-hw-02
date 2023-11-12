@@ -22,13 +22,16 @@ body {
         text-transform: uppercase;
 }
 .logo-half {
-    color: var(--IRIS, #4D5AE5);
+    color: var(--IRIS, #4d5ae5);
         font-family: Raleway, serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 6.48;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+}
+.logo-half-two {
+    color: #2e2f42;
 }
 .page-header {
     display: flex;
@@ -47,11 +50,15 @@ body {
         color: #2e2f42;
 }
 .menu-item {
-    font-weight: 500
+    font-weight: 500;
+    color: #2e2f42;
 }
 .menu-item:hover,
 .menu-item:focus {
-    color: #404BBF;
+    color: #4d5ae5;
+}
+.address-info {
+    font-style: normal
 }
 .address-list-item {
     color: var(--SLATE, #434455);
@@ -86,7 +93,7 @@ body {
         font-size: 56px;
         font-weight: bold;
         line-height: 1.07;
-        letter-spacing: 0.03em;
+        letter-spacing: 0.02em;
         text-align: center;
         color: #FFF
 }
@@ -113,7 +120,7 @@ border-radius: 4px;
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .button-text {
-color: var(--WHITE, #FFFFFF);
+color: #FFFFFF;
 
     /* Button Text */
     font-family: Roboto,
@@ -161,7 +168,7 @@ color: var(--WHITE, #FFFFFF);
             serif;
         font-size: 36px;
         font-weight: 700;
-        line-height: 1.1;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
 }
@@ -170,6 +177,7 @@ color: var(--WHITE, #FFFFFF);
     background-color: #FFFFFF;
 }
 .team {
+    background-color: #FFFFFF;
     color: var(--NAVY-BLUE, #2E2F42);
         text-align: center;
     
@@ -233,13 +241,13 @@ color: var(--SLATE, #434455);
 }
 
 .footer-text {
-color: var(--CLOUD, #4d5ae5);
+color: #F4F4FD;
 
     /* Body */
     font-family: Roboto,
         sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.17;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
