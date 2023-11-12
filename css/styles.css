@@ -233,6 +233,12 @@ color: var(--SLATE, #434455);
 }
 .logo-footer {
     color: #4d5ae5;
+    font-family: Raleway, serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 6.48;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
 .logo-half-footer {
     color: #f4f4fd;
