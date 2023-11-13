@@ -25,12 +25,6 @@ body {
 }
 .logo-half {
     color:  #2e2f42;
-        font-family: Raleway, serif;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 6.48;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
 }
 
 
@@ -129,6 +123,7 @@ body {
 }
 .section-team {
     line-height: 1.11;
+    background: var(--CLOUD, #F4F4FD);
 }
 .header-team {
     color: var(--NAVY-BLUE, #2E2F42);
